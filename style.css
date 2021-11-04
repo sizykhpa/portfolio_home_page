@@ -67,7 +67,6 @@ form {
 
 input {
   height: 50px;
-  border-radius: 3px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
@@ -77,20 +76,20 @@ input {
 }
 
 .submit-button {
-  width: 195px;
+  width: 190px;
   margin: 4px 0px 4px 0px;
-  border-radius: 3px;
+  border-radius: 3px 0px 0px 3px;
   background-color: #787799;
   /* padding: 9px 15px; */
-  text-indent: -5px;
   color: white;
 }
 
 .github-button {
   width: 80px;
   background-color: black;
-  margin-left: -14px;
+  margin-left: -4px;
   color: white;
+  border-radius: 0px 3px 3px 0px;
 
 }
 
