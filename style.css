@@ -33,11 +33,16 @@ body {
 .text-block {
   margin-bottom: 20px;
   color: #545196;
-  font-size: 28px;
+  font-size: 30px;
   line-height: 28px;
   text-align: center;
   margin-bottom: 22px;
 }
+
+form {
+  display: inline-block;
+}
+
 .form_block {
   margin: auto;
   width: 85%;
@@ -60,9 +65,7 @@ body {
   outline: 0;
 }
 
-
 input {
-  display: block;
   height: 50px;
   border-radius: 3px;
   text-align: center;
@@ -74,22 +77,19 @@ input {
 }
 
 .submit-button {
-  width: 180px;
-  /* margin: 15px; */
-  margin: 5px;
-  /* margin-right: auto;
-  margin-left: auto; */
+  width: 195px;
+  margin: 4px 0px 4px 0px;
   border-radius: 3px;
   background-color: #787799;
-  padding: 9px 15px;
+  /* padding: 9px 15px; */
+  text-indent: -5px;
   color: white;
-
-  grid-column-end: span 2;
 }
 
 .github-button {
   width: 80px;
   background-color: black;
+  margin-left: -14px;
   color: white;
 
 }
